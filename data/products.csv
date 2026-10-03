@@ -1,0 +1,49 @@
+﻿product_id,product_name,category,brand,unit_cost,list_price
+P0001,AeroSport Running Shoes Basic,Footwear,AeroSport,42.72,69.9
+P0002,FitCore Running Shoes Pro,Footwear,FitCore,38.72,74.9
+P0003,RunPro Trail Shoes Basic,Footwear,RunPro,39.43,69.9
+P0004,AeroSport Trail Shoes Pro,Footwear,AeroSport,85.41,154.9
+P0005,UrbanMove Training Shoes Basic,Footwear,UrbanMove,35.43,69.9
+P0006,UrbanMove Training Shoes Pro,Footwear,UrbanMove,31.8,49.9
+P0007,TrailFox Hiking Boots Basic,Footwear,TrailFox,72.69,134.9
+P0008,RunPro Hiking Boots Pro,Footwear,RunPro,57.82,99.9
+P0009,RunPro T-Shirt Basic,Apparel,RunPro,162.54,239.9
+P0010,TrailFox T-Shirt Pro,Apparel,TrailFox,23.62,34.9
+P0011,FlexGear Hoodie Basic,Apparel,FlexGear,90.29,139.9
+P0012,NorthPeak Hoodie Pro,Apparel,NorthPeak,173.45,274.9
+P0013,Pulse Leggings Basic,Apparel,Pulse,174.69,384.9
+P0014,Pulse Leggings Pro,Apparel,Pulse,101.33,194.9
+P0015,TrailFox Shorts Basic,Apparel,TrailFox,21.96,44.9
+P0016,TrailFox Shorts Pro,Apparel,TrailFox,182.91,274.9
+P0017,Pulse Jacket Basic,Apparel,Pulse,141.05,309.9
+P0018,NorthPeak Jacket Pro,Apparel,NorthPeak,13.05,19.9
+P0019,NorthPeak Yoga Mat Basic,Fitness,NorthPeak,98.7,144.9
+P0020,FitCore Yoga Mat Pro,Fitness,FitCore,48.83,79.9
+P0021,NorthPeak Dumbbell Set Basic,Fitness,NorthPeak,107.71,159.9
+P0022,FlexGear Dumbbell Set Pro,Fitness,FlexGear,113.13,219.9
+P0023,Pulse Resistance Bands Basic,Fitness,Pulse,105.83,219.9
+P0024,NorthPeak Resistance Bands Pro,Fitness,NorthPeak,110.97,169.9
+P0025,NorthPeak Kettlebell Basic,Fitness,NorthPeak,147.54,269.9
+P0026,NorthPeak Kettlebell Pro,Fitness,NorthPeak,209.56,369.9
+P0027,UrbanMove Foam Roller Basic,Fitness,UrbanMove,188.78,314.9
+P0028,FitCore Foam Roller Pro,Fitness,FitCore,126.39,189.9
+P0029,FlexGear Backpack Basic,Outdoor,FlexGear,18.19,39.9
+P0030,FitCore Backpack Pro,Outdoor,FitCore,109.21,179.9
+P0031,FitCore Tent Basic,Outdoor,FitCore,208.63,364.9
+P0032,FlexGear Tent Pro,Outdoor,FlexGear,124.07,174.9
+P0033,FlexGear Sleeping Bag Basic,Outdoor,FlexGear,207.32,324.9
+P0034,RunPro Sleeping Bag Pro,Outdoor,RunPro,55.28,84.9
+P0035,FlexGear Trekking Poles Basic,Outdoor,FlexGear,115.09,219.9
+P0036,UrbanMove Trekking Poles Pro,Outdoor,UrbanMove,196.98,349.9
+P0037,FlexGear Thermal Bottle Basic,Outdoor,FlexGear,205.71,374.9
+P0038,NorthPeak Thermal Bottle Pro,Outdoor,NorthPeak,147.45,314.9
+P0039,FlexGear Cap Basic,Accessories,FlexGear,35.26,54.9
+P0040,AeroSport Cap Pro,Accessories,AeroSport,55.05,89.9
+P0041,Pulse Sports Bottle Basic,Accessories,Pulse,159.09,314.9
+P0042,TrailFox Sports Bottle Pro,Accessories,TrailFox,93.63,144.9
+P0043,FlexGear Gym Bag Basic,Accessories,FlexGear,199.94,294.9
+P0044,TrailFox Gym Bag Pro,Accessories,TrailFox,174.84,309.9
+P0045,TrailFox Fitness Gloves Basic,Accessories,TrailFox,107.24,204.9
+P0046,NorthPeak Fitness Gloves Pro,Accessories,NorthPeak,50.0,84.9
+P0047,NorthPeak Socks Basic,Accessories,NorthPeak,17.76,39.9
+P0048,FlexGear Socks Pro,Accessories,FlexGear,177.29,264.9
