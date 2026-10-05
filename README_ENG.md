@@ -1,5 +1,19 @@
 # ActiveShop E-Commerce Analytics (Final Project)
 
+## Table of Contents
+
+- [Project Goal]
+- [Dataset Overview]
+- [Repository Structure]
+- [Phase 1. Data Cleaning & Preprocessing]
+- [Phase 2. PostgreSQL & SQL Analysis (DBeaver)]
+- [Phase 3. Python + Pandas - Key Business Insights & Analytical Findings (Answers to questions)]
+- [Phase 4. Statistical Analysis & A/B Testing]
+- [Phase 5. Data Visualization]
+- [Phase 6. Interactive Streamlit Web Application]
+- [Phase 7. ActiveShop Dashboard (Apache Superset)]
+- [How to Run Locally]
+
 ## Project Goal
 A comprehensive analytics project for the ActiveShop e-commerce store covering data cleaning, PostgreSQL integration, SQL queries, statistical analysis, A/B testing, visual dashboards in Apache Superset, and an interactive Streamlit web application.
 
@@ -10,6 +24,30 @@ The project is built on 5 primary CSV files:
 - `sessions.csv`: Web session logs and A/B test activity.
 - `orders.csv`: Order metadata (statuses, payment methods, promo codes, totals).
 - `order_items.csv`: Order line items (products, quantities, prices).
+
+
+## Repository Structure
+
+Final_Project_ActiveShop/
+├── app/
+│   ├── streamlit_app.py                  # Main streamlit application file & Overview page
+│   └── pages/                            # Multi-page dashboard modules
+│       ├── 1_Overview.py                 # Business KPIs & high-level summary
+│       ├── 2_Sales.py                    # Revenue trends, categories & geography
+│       ├── 3_Customers_&_Marketing.py    # Cohorts, channels & LTV analysis
+│       └── 4_AB_Test.py                  # A/B test analysis & hypothesis testing
+├── data/                                 # Initial and Cleaned CSV datasets
+├── images/                               # Superset - ActiveShop Dashboard - screenshots
+├── notebooks/                            # Jupyter notebooks for EDA and analysis
+├── sql/                                  # SQL queries and schema scripts
+├── DATA_DICTIONARY.md                    # Detailed dataset dictionary
+├── FINAL_PROJECT.md                      # Project specifications & requirements
+├── README_ENG.md                         # English documentation
+├── README_RU.md                          # Russian documentation
+└── requirements.txt                      # Project dependencies
+
+**Live Streamlit App:** [ActiveShop Analytics Dashboard](https://finalprojectactiveshop-2a59tvzhvriti8nn8fcggl.streamlit.app/)
+
 
 ---------------------------------------------------------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------------------------------------------------------
@@ -277,6 +315,8 @@ A denormalized SQL view named `v_order_analytics` was created in DBeaver, combin
 ## Phase 6 - Interactive Streamlit Web Application
 -----------------------------------------------------------------------------------------------
 
+**Live Streamlit App:** [ActiveShop Analytics Dashboard](https://finalprojectactiveshop-2a59tvzhvriti8nn8fcggl.streamlit.app/)
+
 To provide executive stakeholders with dynamic data access and interactive reporting, a multi-page web application was developed using **Streamlit** and deployed to **Streamlit Community Cloud**.
 
 ### Key Features & Structure
@@ -291,5 +331,52 @@ To provide executive stakeholders with dynamic data access and interactive repor
 ---------------------------------------------------------------------------------------------------------------------------------
 
 -----------------------------------------------------------------------------------------------
-## Phase 7 - 
+## Phase 7 - ActiveShop Dashboard (Apache Superset)
 -----------------------------------------------------------------------------------------------
+
+Below is the **ActiveShop Dashboard** built using Apache Superset. To ensure maximum readability and data clarity, both a full-page overview and high-resolution section screenshots are provided.
+
+#### Full Dashboard Overview
+![ActiveShop Dashboard Overview](images/superset_dashboard_full_screen.png)
+
+**Click to view high-resolution dashboard sections**</summary>**
+
+### 1. Revenue KPI & Revenue by Region
+![Revenue KPI & Revenue by Region](images/superset_dashboard_part_1.png)
+
+### 2. Conversion Rate by Channel & Revenue by Category
+![Conversion Rate by Channel & Revenue by Category](images/superset_dashboard_part_2.png)
+
+### 3. Revenue Trend by Month
+![Revenue Trend by Month](images/superset_dashboard_part_3.png)
+
+---------------------------------------------------------------------------------------------------------------------------------
+---------------------------------------------------------------------------------------------------------------------------------
+
+-----------------------------------------------------------------------------------------------
+## How to Run Locally
+-----------------------------------------------------------------------------------------------
+
+### 1. Clone the repository:
+git clone [https://github.com/svitlana-web/Final_Project_ActiveShop.git](https://github.com/svitlana-web/Final_Project_ActiveShop.git)
+cd Final_Project_ActiveShop
+
+### 2. Create and activate a virtual environment (optional but recommended):
+python -m venv venv
+# On Windows:
+venv\Scripts\activate
+# On macOS/Linux:
+source venv/bin/activate
+
+### 3. Install dependencies:
+pip install -r requirements.txt
+
+### 4. Launch the Streamlit app:
+streamlit run app/streamlit_app.py
+
+The dashboard will automatically open in your default browser at http://localhost:8501
+
+**Live Streamlit App:** [ActiveShop Analytics Dashboard](https://finalprojectactiveshop-2a59tvzhvriti8nn8fcggl.streamlit.app/)
+
+---------------------------------------------------------------------------------------------------------------------------------
+---------------------------------------------------------------------------------------------------------------------------------
