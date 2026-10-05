@@ -28,6 +28,7 @@ The project is built on 5 primary CSV files:
 
 ## Repository Structure
 
+```text
 Final_Project_ActiveShop/
 ├── app/
 │   ├── streamlit_app.py                  # Main streamlit application file & Overview page
@@ -45,6 +46,7 @@ Final_Project_ActiveShop/
 ├── README_ENG.md                         # English documentation
 ├── README_RU.md                          # Russian documentation
 └── requirements.txt                      # Project dependencies
+```
 
 **Live Streamlit App:** [ActiveShop Analytics Dashboard](https://finalprojectactiveshop-2a59tvzhvriti8nn8fcggl.streamlit.app/)
 
